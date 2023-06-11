@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-// import { BsDownload } from 'react-icons/Bs';
+import { BsDownload } from 'react-icons/bs';
 
 const Navbar = () => {
   return (
@@ -24,7 +24,7 @@ const Navbar = () => {
     <a target='_blank' href="/cv/cvv.pdf">
     <button className="inline-flex items-center text-white bg-[#20C20E] border-0 py-1 px-3 focus:outline-none hover:text-black  rounded text-base mt-4 md:mt-0">Download CV
      
-     {/* <BsDownload className='text-lg ml-2'   /> */}
+     <BsDownload className='text-lg ml-2'   />
     </button>
     </a>
   </div>
